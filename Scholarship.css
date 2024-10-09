@@ -1,0 +1,45 @@
+
+.vertical{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+background-color: powderblue;
+overflow: hidden;
+}
+
+.vertical li{
+display:block;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 70px;
+margin-bottom: 70px;
+color:navy;
+cursor: pointer;
+}
+.vertical
+{background-image: url(dasbpic.jfif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.horizontal{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+background-color:black;
+overflow: hidden;
+cursor: pointer;
+}
+
+.horizontal li
+{float: left;
+display: block;
+padding: 8px;
+margin: 50px;
+color: white;
+}
+
+.active{
+background-color: ;
+}
