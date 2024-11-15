@@ -2,41 +2,26 @@
 body{
     background-color: floralwhite;
 }
-.vertical{
-list-style-type: none;
-margin: 0px;
-padding: 0px;
-overflow: hidden;
-}
 
-.vertical li{
-display:block;
-padding-top: 8px;
-padding-bottom: 8px;
-margin-top: 70px;
-margin-bottom: 70px;
-color:navy;
-cursor: pointer;
+.header{
+    background-color: darkolivegreen;
 }
 
 
-.horizontal{
-list-style-type: none;
-margin: 0px;
-padding: 0px;
-background-color:black;
-overflow: hidden;
-cursor: pointer;
-}
+.horizontal
+{ 
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 1350px;
+    height: 50px;}
 
 .horizontal li
-{float: left;
-display: block;
-padding: 8px;
-margin: 50px;
-color: white;
-}
-
-.active{
-background-color: ;
-}
+{display: inline-block;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+    color: whitesmoke;
+    cursor: pointer;}
