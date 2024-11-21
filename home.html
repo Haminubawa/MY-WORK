@@ -8,7 +8,8 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Bright &#128161; Future Foundation</h1> <a href="Sign up.html"><button>Login / Sign Up</button></a>
+        <h1>Bright &#128161; Future Foundation</h1> <a href="Sign up.html">
+            <button>Login / Sign Up</button></a>
         
         <marquee>Welcome to The Annual Scholarship Grant of The Bright Future Foundation</marquee>
         <div class="header">
@@ -33,8 +34,9 @@
 
         <script>
             alert("You Have Eqaul Chance of Being Selected");
-            let Nation = Nigerian;
-            if (Nation = Nigerian) {
+
+            var Nation = prompt("What is Your Nationality ?")
+            if (Nation === "Nigerian") {
                 alert("You Are Good To Go!, Check other requrements");
             } else {
                 alert("You cannot apply for this grant");
